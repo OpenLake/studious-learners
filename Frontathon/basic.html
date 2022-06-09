@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .b1:hover{
+            border-bottom: 4px solid blue;
+        }
+        .b1{
+            border: none;
+            background: none;
+            border-bottom: 3px solid red;
+            color: black;
+            padding: 6px;
+            transition: ease-in;
+            transition-duration: 0.2s;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .nav-a{
+               margin-left: 15%;
+        }
+        .tr{
+            height: 40px;
+        }
+        .form{
+            width: 50%;
+            padding: 20px;
+            box-shadow: 0px 5px 10px black;
+            border-radius: 5px;
+            margin-top: 30px;
+            margin-left:25% ;
+            text-align: center;
+        }
+        label{
+            font-size: 14px;
+            margin-right: 4px;
+            font-weight: bold;
+        }
+        input{
+            border: none;
+            border-bottom: 2px solid blue;
+            width: max-content;
+
+        }
+        input:focus{
+           outline: none;
+           border-bottom: 2px solid red;
+            
+        }
+        .reset,.submit{
+            width: 100px;
+            height: 30px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        .reset:hover{
+            transform: scale(1.03);
+             background-color:  red;
+             color: white;
+        }
+        .submit:hover{
+            transform: scale(1.03);
+             background-color:  rgb(38, 168, 44);
+             color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav style="height: 40px; background-color: rgb(207, 207, 207); padding: 10px; display: flex;">
+        <button class="b1" style="font-size: 30px; border: none;" >Blogs</button>
+        <div style="margin-top: 10px;width: 100%; ">
+        <a class="b1 nav-a" href="">Home page</a>
+        <a class="b1 nav-a" href="">Blog page</a>
+        <a class="b1 nav-a" href="">Sign In</a>
+        <a class="b1 nav-a" href="">Log out</a>
+        </div>  
+
+    </nav>
+    <center><h1  style="color: red;  margin-top: 50px;font-size: 30px;">Blog page Card</h1></center>
+    <div style="display: flex; overflow: hidden;">
+            <div style="text-align: center; margin-left: 100px; padding: 10px; width: 300px; height: 400px; border: 1px solid blue; box-shadow: 2px 2px 4px black;">
+                <span style=" font-size: 19px; color: blue; font-weight: bold; ">This is a card</span>
+                <div style="overflow: hidden;">
+                    <img src="/th.webp" alt="img"  width="100%">
+                    <pre>Something about IIT BHILAI 
+Here is the random text</pre>
+                </div>
+            </div>
+            <div style="text-align: center; margin-left: 100px; padding: 10px; width: 300px; height: 400px; border: 1px solid blue; box-shadow: 2px 2px 4px black;">
+                <span style=" font-size: 19px; color: blue; font-weight: bold; ">This is a card</span>
+                <div style="overflow: hidden;">
+                    <img src="/th.webp" alt="img"  width="100%">
+                    <pre>Something about IIT BHILAI 
+Here is the random text</pre>
+                </div>
+            </div>
+            <div style="text-align: center; margin-left: 100px; padding: 10px; width: 300px; height: 400px; border: 1px solid blue; box-shadow: 2px 2px 4px black;">
+                <span style=" font-size: 19px; color: blue; font-weight: bold; ">This is a card</span>
+                <div style="overflow: hidden;">
+                    <img src="/th.webp" alt="img"  width="100%">
+                    <pre>Something about IIT BHILAI 
+Here is the random text</pre>
+                </div>
+            </div>
+            <div style="text-align: center; margin-left: 100px; padding: 10px; width: 300px; height: 400px; border: 1px solid blue; box-shadow: 2px 2px 4px black;">
+                <span style=" font-size: 19px; color: blue; font-weight: bold; ">This is a card</span>
+                <div style="overflow: hidden;">
+                    <img src="/th.webp" alt="img"  width="100%">
+                    <pre>Something about IIT BHILAI 
+Here is the random text</pre>
+                </div>
+            </div>
+
+    </div>
+    <div class="table1" style=" padding: 20px; background-color: rgb(147, 192, 147); margin-top: 30px; border-radius: 20px; box-shadow: 4px 4px 10px green;">
+        <table border="2" style="border-collapse: collapse; width: 100%; ">
+            <thead>
+               <center><h4 >Course table</h4></center>
+                <tr>
+                    <th>Id</th>
+                    <th>Instructor</th>
+                    <th>Course</th>
+                    <th>No of Students</th>
+                </tr>
+            </thead>
+            <tbody style="text-align: center;">
+                 <tr class="tr" >
+                    <td>1</td>
+                    <td>Subhojit</td>
+                    <td>DBMS</td>
+                    <td>56</td>
+                </tr>
+                 <tr class="tr" >
+                    <td>2</td>
+                    <td>Subhojit</td>
+                    <td>DBMS</td>
+                    <td>56</td>
+                </tr>
+                 <tr class="tr" >
+                    <td>3</td>
+                    <td>Subhojit</td>
+                    <td>DBMS</td>
+                    <td>56</td>
+                </tr>
+                 <tr class="tr" >
+                    <td>4</td>
+                    <td>Subhojit</td>
+                    <td>DBMS</td>
+                    <td>56</td>
+                </tr>
+                 <tr class="tr" >
+                    <td>5</td>
+                    <td>Subhojit</td>
+                    <td>DBMS</td>
+                    <td>56</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="form">
+        <h4>Add Course</h4>
+        <form action="action.js">
+            <div style="display: flex; text-align: center; margin-bottom: 35px;">
+                <label for="name">Name:</label>
+                <input type="text" name="name"/>
+                <label for="course" style="margin-left: 22%;">Course:</label>
+                <input type="text" name="course"/>
+            </div>
+            <div style="display: flex; text-align: center; margin-bottom: 35px;">
+                <label for="credit">Credits:</label>
+                <input type="number" name="credit"/>
+                <label for="pre" style="margin-left: 20%;">Prerequisite:</label>
+                <input type="text" name="pre"/>
+            </div>
+            <div style="display: flex; text-align: center; margin-bottom: 35px;">
+                <label for="name">Start Date</label>
+                <input type="date" name="name"/>
+                <label for="course" style="margin-left: 30%;">End Date:</label>
+                <input type="date" name="course"/>
+            </div>
+            <button class="reset" type="reset">Reset</button>
+            <button class="submit" type="submit">Submit</button>
+        </form>
+    </div>
+   
+    <br>
+    
+    <div class="details" style="margin-left: 0%;">
+        <details>
+            <summary>Departments in IIT BHILAI</summary>
+            <h6>EECS</h6>
+            <h6>Mech</h6>
+           
+        </details>
+    </div>
+     <fieldset>
+        <legend>About IIT BHILAI</legend>
+        IIT Bhilai offers Bachelor of Technology (BTech), Master of Technology (MTech), Master of Science (MSc) and Doctoral programs (PhD) in various departments. The Institute made its modest start with introduction of BTech program in August 2016. The Institute is currently offering BTech and MTech
+    </fieldset>
+     <div class="list">
+        <ul style="list-style: decimal;"> 
+            <li>Item1</li>
+            <li>Item2</li>
+            <ol style="list-style: lower-alpha;">
+                <li>Item1 of Item1</li>
+                <li>Item2 of Item1</li>
+                 <ol style="list-style: lower-greek;">
+                <li>Item1 of Item1</li>
+                <li>Item2 of Item1</li>
+                <li>Item3 of Item1</li>
+                
+            </ol>
+            
+                <li>Item3 of Item1</li>
+                
+            </ol>
+            
+        </ul>
+    </div>
+    
+
+</body>
+</html>

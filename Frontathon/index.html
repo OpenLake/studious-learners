@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .nav{
+            display: flex;
+        }
+        .logo{
+            height: 40px;
+            border-radius: 50%;
+        }
+        .logo-box{
+            margin-right: 30%;
+        }
+        .nav-a{
+            margin-left: 5%;
+            display: flex;
+            width: 40%;
+            justify-content: space-between;
+        }
+        .nav-a a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .nav-a a:hover{
+            color: orange;
+            border-bottom: 2px solid orange;
+        }
+        .main{
+            display: flex;
+            padding: 30px;
+            /* background-color: red; */
+            margin: 40px;
+            margin-top: 5%;
+
+        }
+        .main-l{
+            margin-left: 20%;
+            margin-right: 20%;
+            /* background-color: red; */
+            padding: 20px;
+            width: 25%;
+            box-shadow: 0px 8px 5px white;
+            height: 200px;
+        }
+        .name{
+            font-size: 20px;
+            color: blue;
+        }
+        .hire{
+            width: 90px;
+            height: 40px;
+            font-size: 18px;
+            background-color: rgb(43, 27, 27);
+            color: white;
+            border-radius: 6px;
+            border: none;
+            box-shadow: 2px 2px 2px white;
+            cursor: pointer;
+        }
+        .main-r{
+            width: 30%;
+        }
+        .detail{
+            /* background-color: red; */
+            width: 70%;
+            padding: 10px;
+            box-shadow: 0px 7px 5px white;
+            margin-bottom: 20px;
+        }
+        .footer{
+            background-color: rgb(53, 45, 45);
+            height: 40px;
+            width: 100%;
+            position: absolute;
+            bottom: 0px;
+        }
+        .socials{
+            color: white;
+            font-size: 26px;
+            padding: 5px;
+            margin-left: 10%;
+        }
+    </style>
+</head>
+<body style="background: url(/backGround.webp) no-repeat; background-size: cover;">
+    <nav class="nav">
+        <div class="logo-box" >
+            <img class="logo" src="/logo.webp" alt="logo">
+        </div>
+        <div class="nav-a">
+            <a href="">
+                <i class="fa-solid fa-house"></i>
+                Home
+            </a>
+            <a href="">Service</a>
+            <a href="">Resume</a>
+            <a href="">About </a>
+            <a href="">Contact</a>
+        </div>
+    </nav>
+    <main class="main">
+        <div class="main-l">
+            <h4 class="name">Anshu kumar</h4>
+            <p> Highly organized      and
+         detail-oriented honors graduate from the
+            University of Georgia seeking an entry-level position as an
+            accountant.</p>
+            <button class="hire" type="button">Hire me</button>
+        </div>
+        <div class="main-r">
+            <div class="detail">
+                <details>
+                    <summary>Skills</summary>
+                    Html 
+                    CSS
+                    react
+                    next
+                </details>
+            </div>
+            <div class="detail">
+                <details>
+                    <summary>Internships</summary>
+                    React developer
+                </details>
+            </div>
+            <div class="detail">
+                <details>
+                    <summary>Projects</summary>
+                    Lost and Found
+                </details>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="socials">
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </footer>
+</body>
+</html>
