@@ -1,4 +1,4 @@
-# studious-learners
+# Events List
 
 Here are the sessions we have had so far.
 
